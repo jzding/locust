@@ -1,4 +1,4 @@
-# locust Performance Tests with Locust Tool
+# Performance Tests with Locust Tool
 
 
 https://locust.io/
@@ -10,11 +10,10 @@ sudo dnf install python3-devel
 pip3 install locust
 ```
 
-## Run tests
-### Start locust
+## Start locust
 ```
 locust -f <test-file.py>
 ```
 
-### Run Test
+## Run Tests
 http://localhost:8089/
