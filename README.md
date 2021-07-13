@@ -1,1 +1,1 @@
-# locust tests
+# locust performance tests
