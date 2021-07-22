@@ -133,7 +133,8 @@ EVENT_MEM0004 = \
 }
 
 class QuickstartUser(HttpUser):
-    wait_time = between(1, 2.5)
+#    wait_time = between(1, 2.5)
+    wait_time = between(0.1, 0.5)
 
     @task
     def temp(self):
