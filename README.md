@@ -16,4 +16,8 @@ locust -f <test-file.py>
 ```
 
 ## Run Tests
-http://localhost:8089/
+Launch tests from UI http://localhost:8089/
+
+![Image of Locust UI](https://github.com/jzding/locust/blob/main/images/ui.png)
+
+
