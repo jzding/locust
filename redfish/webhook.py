@@ -5,6 +5,8 @@ from locust import HttpUser, task, between
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
+
+# Expose Redfish HW events: Temp, Fan failure, Disk, Power, Memory
 EVENT_TMP0100 = \
 {
   "@odata.context": "/redfish/v1/$metadata#Event.Event",
